@@ -1,0 +1,27 @@
+meta {
+  name: 2. Crear publicación (correo INVENTADO — demuestra la brecha del taller)
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{publicacionesUrl}}/api/publicaciones
+  body: json
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "investigadorCorreo": "nadie-existe@uptc.edu.co",
+    "titulo": "Publicación de prueba con investigador que no existe",
+    "tipo": "ponencia",
+    "anio": 2025,
+    "detalles": {
+      "evento": "Congreso Nacional de Ingeniería de Software",
+      "ciudad": "Tunja"
+    }
+  }
+}

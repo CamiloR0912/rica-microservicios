@@ -1,0 +1,22 @@
+meta {
+  name: 2. Crear investigador
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{investigadoresUrl}}/api/investigadores
+  body: json
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "nombreCompleto": "Ana Torres",
+    "correoInstitucional": "ana.torres@uptc.edu.co",
+    "grupoInvestigacion": "GIT-UPTC"
+  }
+}
