@@ -44,4 +44,10 @@ public class InvestigadorController {
                 .body(response);
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> eliminar(@PathVariable Long id) {
+        investigadorService.iniciarEliminacion(id);
+        return ResponseEntity.accepted().build();
+    }
+
 }
