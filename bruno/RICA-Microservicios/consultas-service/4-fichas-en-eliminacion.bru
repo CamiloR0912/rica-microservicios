@@ -1,0 +1,14 @@
+meta {
+  name: 4. Fichas en eliminacion
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{consultasUrl}}/api/consultas/investigadores?estado=EN_ELIMINACION
+  body: none
+}
+
+params:query {
+  estado: EN_ELIMINACION
+}
