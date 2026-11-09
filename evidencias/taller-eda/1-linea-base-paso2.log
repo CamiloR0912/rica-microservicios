@@ -1,0 +1,24 @@
+# Evidencia 1 - Paso 2: linea base SIN defensas. Mensaje 'esto no es json' publicado en investigadores.registrados (offset 6).
+# Log de consultas-service. Se omiten las lineas de stack trace.
+2026-11-08T18:33:35.155-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:35.155-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:35.683-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:35.683-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:36.183-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:36.183-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:36.683-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:36.683-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:37.182-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:37.182-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:37.682-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:37.682-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:38.178-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:38.178-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:38.690-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:38.690-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:39.184-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-consultas-service-4, groupId=consultas-service] Seeking to offset 6 for partition investigadores.registra
+2026-11-08T18:33:39.184-05:00  INFO 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : Record in retry and not yet recovered
+2026-11-08T18:33:39.673-05:00 ERROR 27396 --- [consultas-service] [ntainer#1-0-C-1] o.s.kafka.listener.DefaultErrorHandler   : Backoff FixedBackOffExecution[interval=0, currentAttempts=10, maxAttempts=9] exhausted for investigadores.registrados-0@6
+Caused by: tools.jackson.core.exc.StreamReadException: Unrecognized token 'esto': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+
+# Intentos de reentrega (Seeking to offset 6): 9

@@ -1,0 +1,9 @@
+# Evidencia 2 - Paso 3: kafka-console-consumer sobre investigadores.registrados.DLT con cabeceras (stack trace recortado).
+# Log de consultas-service al recibir el veneno: 0 reintentos (Seeking/Record in retry) y el consumidor sigue.
+
+kafka_dlt-exception-fqcn:org.springframework.kafka.listener.ListenerExecutionFailedException,kafka_dlt-exception-cause-fqcn:tools.jackson.core.exc.StreamReadException,kafka_dlt-exception-message:Listener method 'public void com.rica.consultasservice.consultas.ProyeccionListener.investigadorRegistrado(java.lang.String)' threw exception; Unrecognized token 'esto': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #UNKNOWN],kafka_dlt-exception-stacktrace:[stack trace omitido],,kafka_dlt-original-topic:investigadores.registrados,kafka_dlt-original-partition:<00><00><00><00>,kafka_dlt-original-offset:<00><00><00><00><00><00><00>	,kafka_dlt-original-timestamp:<00><00><01>�����,kafka_dlt-original-timestamp-type:CreateTime,kafka_dlt-original-consumer-group:consultas-service	esto no es json
+[2026-11-08 23:37:19,350] ERROR Error processing message, terminating consumer process:  (org.apache.kafka.tools.consumer.ConsoleConsumer)
+org.apache.kafka.common.errors.TimeoutException
+Processed a total of 1 messages
+

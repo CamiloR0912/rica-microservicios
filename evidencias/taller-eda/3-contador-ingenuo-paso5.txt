@@ -1,0 +1,15 @@
+# Evidencia 3 - Paso 5: contador ingenuo, antes y despues de repetir los eventos (reset del grupo al inicio).
+Antes (N+1):   GET /api/consultas/estadisticas -> {"investigadoresRegistrados":4}
+Despues:       GET /api/consultas/estadisticas -> {"investigadoresRegistrados":8}
+Lineas ERROR en el log durante la repeticion: 0
+
+Nota: el topico conserva los offsets 4 a 10 (Kafka purgo 0-3 por retencion de 7 dias), con 4 altas validas y 3 mensajes venenosos.
+
+# Log de consultas-service (reset del grupo y relectura):
+2026-11-08T18:39:10.035-05:00  INFO 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada. Total: 5
+2026-11-08T18:39:10.042-05:00  INFO 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada. Total: 6
+2026-11-08T18:39:10.043-05:00  WARN 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido, no se cuenta
+2026-11-08T18:39:10.049-05:00  INFO 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada. Total: 7
+2026-11-08T18:39:10.050-05:00  WARN 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido, no se cuenta
+2026-11-08T18:39:10.050-05:00  WARN 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido, no se cuenta
+2026-11-08T18:39:10.056-05:00  INFO 26348 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada. Total: 8

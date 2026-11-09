@@ -1,0 +1,22 @@
+# Evidencia 4 - Paso 6: consumidor idempotente.
+Tras limpiar el estado y releer:             GET /api/consultas/estadisticas -> {"investigadoresRegistrados":4}
+Tras repetir todos los eventos otra vez:     GET /api/consultas/estadisticas -> {"investigadoresRegistrados":4}
+Segunda lectura: contadas=0, ignoradas=4, no validas=3, lineas ERROR=0
+
+# Primera lectura (se cuentan las altas):
+2026-11-08T18:40:37.637-05:00  INFO 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada (investigadores.registrados-0-4). Total: 1
+2026-11-08T18:40:37.646-05:00  INFO 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada (investigadores.registrados-0-5). Total: 2
+2026-11-08T18:40:37.647-05:00  WARN 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido en investigadores.registrados-0@6, no se cuenta
+2026-11-08T18:40:37.656-05:00  INFO 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada (investigadores.registrados-0-7). Total: 3
+2026-11-08T18:40:37.656-05:00  WARN 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido en investigadores.registrados-0@8, no se cuenta
+2026-11-08T18:40:37.656-05:00  WARN 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido en investigadores.registrados-0@9, no se cuenta
+2026-11-08T18:40:37.664-05:00  INFO 24380 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: alta contada (investigadores.registrados-0-10). Total: 4
+
+# Segunda lectura (mismos eventos, se ignoran):
+2026-11-08T18:41:35.493-05:00  INFO 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: evento investigadores.registrados-0-4 ya procesado, se ignora
+2026-11-08T18:41:35.496-05:00  INFO 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: evento investigadores.registrados-0-5 ya procesado, se ignora
+2026-11-08T18:41:35.497-05:00  WARN 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido en investigadores.registrados-0@6, no se cuenta
+2026-11-08T18:41:35.500-05:00  INFO 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: evento investigadores.registrados-0-7 ya procesado, se ignora
+2026-11-08T18:41:35.500-05:00  WARN 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido en investigadores.registrados-0@8, no se cuenta
+2026-11-08T18:41:35.501-05:00  WARN 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: mensaje no válido en investigadores.registrados-0@9, no se cuenta
+2026-11-08T18:41:35.503-05:00  INFO 6556 --- [consultas-service] [ntainer#0-0-C-1] c.r.c.consultas.EstadisticasListener     : Estadísticas: evento investigadores.registrados-0-10 ya procesado, se ignora
