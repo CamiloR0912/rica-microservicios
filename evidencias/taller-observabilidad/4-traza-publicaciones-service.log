@@ -1,0 +1,7 @@
+﻿2026-11-10T11:20:24.298-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] .r.p.p.InvestigadorEnEliminacionListener : Saga: 1 publicaciones de saga.observabilidad.20261110@uptc.edu.co marcadas como huérfanas
+2026-11-10T11:20:24.319-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] o.a.kafka.common.config.AbstractConfig   : ProducerConfig values: 
+2026-11-10T11:20:24.322-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-11-10T11:20:24.334-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=publicaciones-service-producer-1] Instantiated an idempotent producer.
+2026-11-10T11:20:24.352-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-11-10T11:20:24.353-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-11-10T11:20:24.355-05:00  INFO [publicaciones-service,demo-002] 2916 --- [publicaciones-service] [ntainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1794327624352

@@ -1,0 +1,5 @@
+﻿2026-11-10T11:24:04.713-05:00  INFO 26292 --- [consultas-service] [ntainer#1-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: ficha de sofia.lineabase.20261110@uptc.edu.co actualizada (registro)
+2026-11-10T11:24:05.735-05:00  INFO 26292 --- [consultas-service] [ntainer#2-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: ficha de sofia.lineabase.20261110@uptc.edu.co ahora tiene 1 publicaciones
+2026-11-10T11:24:05.822-05:00  INFO 26292 --- [consultas-service] [ntainer#2-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: ficha de sofia.lineabase.20261110@uptc.edu.co ahora tiene 2 publicaciones
+2026-11-10T11:24:12.734-05:00  INFO 26292 --- [consultas-service] [ntainer#3-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: sofia.lineabase.20261110@uptc.edu.co marcado EN_ELIMINACION
+2026-11-10T11:24:14.780-05:00  INFO 26292 --- [consultas-service] [ntainer#4-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: ficha de sofia.lineabase.20261110@uptc.edu.co eliminada

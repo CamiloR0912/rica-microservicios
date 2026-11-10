@@ -1,0 +1,33 @@
+﻿{
+    "availableTags":  [
+                          {
+                              "tag":  "area",
+                              "values":  [
+                                             "heap",
+                                             "nonheap"
+                                         ]
+                          },
+                          {
+                              "tag":  "id",
+                              "values":  [
+                                             "CodeHeap \u0027profiled nmethods\u0027",
+                                             "G1 Old Gen",
+                                             "G1 Survivor Space",
+                                             "CodeHeap \u0027non-profiled nmethods\u0027",
+                                             "Compressed Class Space",
+                                             "Metaspace",
+                                             "G1 Eden Space",
+                                             "CodeHeap \u0027non-nmethods\u0027"
+                                         ]
+                          }
+                      ],
+    "baseUnit":  "bytes",
+    "description":  "The amount of used memory",
+    "measurements":  [
+                         {
+                             "statistic":  "VALUE",
+                             "value":  338384320
+                         }
+                     ],
+    "name":  "jvm.memory.used"
+}

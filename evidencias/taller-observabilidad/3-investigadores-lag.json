@@ -1,0 +1,17 @@
+﻿[
+    {
+        "id":  4,
+        "nombreCompleto":  "Prueba Lag 1",
+        "grupoInvestigacion":  "Taller observabilidad"
+    },
+    {
+        "id":  5,
+        "nombreCompleto":  "Prueba Lag 2",
+        "grupoInvestigacion":  "Taller observabilidad"
+    },
+    {
+        "id":  6,
+        "nombreCompleto":  "Prueba Lag 3",
+        "grupoInvestigacion":  "Taller observabilidad"
+    }
+]

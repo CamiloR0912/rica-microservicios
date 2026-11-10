@@ -1,0 +1,248 @@
+﻿mvnw.cmd : WARNING: A restricted method in java.lang.System has been called
+En línea: 2 Carácter: 274
++ ... ')) { Push-Location $service; try { & .\mvnw.cmd -B test 2>&1 | Out-F ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A rest...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module 
+(file:/C:/Users/USER/.m2/wrapper/dists/apache-maven-3.9.16-bin/4200fbc6/apache-maven-3.9.16/lib/jansi-2.4.3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.rica:investigadores-service >-------------------
+[INFO] Building investigadores-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- protobuf:5.1.8:generate (generate) @ investigadores-service ---
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\investigadores-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\investigadores-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Found 1 proto source file and 0 descriptor files to compile, but all are up-to-date so none will be built this time
+[INFO] NOTHING TO DO: There is nothing to do. If this is unexpected, review the above logs for more details.
+[INFO] 
+[INFO] --- protobuf:5.1.8:generate (default) @ investigadores-service ---
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\investigadores-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\investigadores-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Found 1 proto source file and 0 descriptor files to compile, but all are up-to-date so none will be built this time
+[INFO] NOTHING TO DO: There is nothing to do. If this is unexpected, review the above logs for more details.
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ investigadores-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ investigadores-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 32 source files with javac [debug parameters release 25] to target\classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ investigadores-service ---
+[INFO] skip non existing resourceDirectory C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\investigadores-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ investigadores-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug parameters release 25] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ investigadores-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.rica.investigadoresservice.investigadores.aplicacion.InvestigadorFactoryTest
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of 
+the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: 
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically 
+(C:\Users\USER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap 
+classpath has been appended
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.176 s -- in com.rica.investigadoresservice.investigadores.aplicacion.InvestigadorFactoryTest
+[INFO] Running com.rica.investigadoresservice.investigadores.aplicacion.InvestigadorServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s -- in com.rica.investigadoresservice.investigadores.aplicacion.InvestigadorServiceTest
+[INFO] Running com.rica.investigadoresservice.investigadores.infraestructura.entrada.mensajeria.PublicacionesMarcadasListenerTest
+11:19:58.595 [main] INFO com.rica.investigadoresservice.investigadores.infraestructura.entrada.mensajeria.PublicacionesMarcadasListener -- Saga: publicaciones confirm� para ana@uptc.edu.co. Eliminando investigador.
+11:19:58.608 [main] INFO com.rica.investigadoresservice.investigadores.infraestructura.entrada.mensajeria.PublicacionesMarcadasListener -- Saga: publicaciones confirm� para ana@uptc.edu.co. Eliminando investigador.
+11:19:58.612 [main] INFO com.rica.investigadoresservice.investigadores.infraestructura.entrada.mensajeria.PublicacionesMarcadasListener -- Saga: publicaciones confirm� para ana@uptc.edu.co. Eliminando investigador.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.443 s -- in com.rica.investigadoresservice.investigadores.infraestructura.entrada.mensajeria.PublicacionesMarcadasListenerTest
+[INFO] Running com.rica.investigadoresservice.investigadores.infraestructura.entrada.web.CorrelationIdFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s -- in com.rica.investigadoresservice.investigadores.infraestructura.entrada.web.CorrelationIdFilterTest
+[INFO] Running com.rica.investigadoresservice.investigadores.infraestructura.salida.mensajeria.OutboxPublicadorEventosTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 s -- in com.rica.investigadoresservice.investigadores.infraestructura.salida.mensajeria.OutboxPublicadorEventosTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.109 s
+[INFO] Finished at: 2026-11-10T11:19:58-05:00
+[INFO] ------------------------------------------------------------------------
+mvnw.cmd : WARNING: A restricted method in java.lang.System has been called
+En línea: 2 Carácter: 274
++ ... ')) { Push-Location $service; try { & .\mvnw.cmd -B test 2>&1 | Out-F ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A rest...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module 
+(file:/C:/Users/USER/.m2/wrapper/dists/apache-maven-3.9.16-bin/4200fbc6/apache-maven-3.9.16/lib/jansi-2.4.3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.rica:publicaciones-service >-------------------
+[INFO] Building publicaciones-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- protobuf:5.1.8:generate (generate) @ publicaciones-service ---
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\publicaciones-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\publicaciones-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Found 1 proto source file and 0 descriptor files to compile, but all are up-to-date so none will be built this time
+[INFO] NOTHING TO DO: There is nothing to do. If this is unexpected, review the above logs for more details.
+[INFO] 
+[INFO] --- protobuf:5.1.8:generate (default) @ publicaciones-service ---
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\publicaciones-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Registering "C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\publicaciones-service\target\generated-sources\protobuf" as a Maven main source root for compiler plugins
+[INFO] Found 1 proto source file and 0 descriptor files to compile, but all are up-to-date so none will be built this time
+[INFO] NOTHING TO DO: There is nothing to do. If this is unexpected, review the above logs for more details.
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ publicaciones-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ publicaciones-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 25 source files with javac [debug parameters release 25] to target\classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ publicaciones-service ---
+[INFO] skip non existing resourceDirectory C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\publicaciones-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ publicaciones-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug parameters release 25] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ publicaciones-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.rica.publicacionesservice.publicaciones.InvestigadorEnEliminacionListenerTest
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of 
+the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: 
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap 
+classpath has been appended
+WARNING: A Java agent has been loaded dynamically 
+(C:\Users\USER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+11:20:10.678 [main] INFO com.rica.publicacionesservice.publicaciones.InvestigadorEnEliminacionListener -- Saga: 1 publicaciones de ana@uptc.edu.co marcadas como hu�rfanas
+11:20:10.777 [main] INFO com.rica.publicacionesservice.publicaciones.InvestigadorEnEliminacionListener -- Saga: 1 publicaciones de ana@uptc.edu.co marcadas como hu�rfanas
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.639 s -- in com.rica.publicacionesservice.publicaciones.InvestigadorEnEliminacionListenerTest
+[INFO] Running com.rica.publicacionesservice.publicaciones.LimitePublicacionesAnualesServiceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in com.rica.publicacionesservice.publicaciones.LimitePublicacionesAnualesServiceTest
+[INFO] Running com.rica.publicacionesservice.publicaciones.PublicacionServiceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s -- in com.rica.publicacionesservice.publicaciones.PublicacionServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.175 s
+[INFO] Finished at: 2026-11-10T11:20:11-05:00
+[INFO] ------------------------------------------------------------------------
+mvnw.cmd : WARNING: A restricted method in java.lang.System has been called
+En línea: 2 Carácter: 274
++ ... ')) { Push-Location $service; try { & .\mvnw.cmd -B test 2>&1 | Out-F ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A rest...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module 
+(file:/C:/Users/USER/.m2/wrapper/dists/apache-maven-3.9.16-bin/4200fbc6/apache-maven-3.9.16/lib/jansi-2.4.3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.rica:consultas-service >---------------------
+[INFO] Building consultas-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ consultas-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ consultas-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ consultas-service ---
+[INFO] skip non existing resourceDirectory C:\Users\USER\Desktop\Universidad\8vo\Software2\rica\rica-microservicios\consultas-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ consultas-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ consultas-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.rica.consultasservice.consultas.EstadisticasListenerTest
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of 
+the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: 
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically 
+(C:\Users\USER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap 
+classpath has been appended
+11:20:18.231 [main] INFO com.rica.consultasservice.consultas.EstadisticasListener -- Estad�sticas: evento investigadores.registrados-0-7 ya procesado, se ignora
+11:20:18.271 [main] WARN com.rica.consultasservice.consultas.EstadisticasListener -- Estad�sticas: mensaje no v�lido en investigadores.registrados-0@8, no se cuenta
+11:20:18.283 [main] INFO com.rica.consultasservice.consultas.EstadisticasListener -- Estad�sticas: alta contada (investigadores.registrados-0-7). Total: 0
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.671 s -- in com.rica.consultasservice.consultas.EstadisticasListenerTest
+[INFO] Running com.rica.consultasservice.consultas.FichaInvestigadorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s -- in com.rica.consultasservice.consultas.FichaInvestigadorTest
+[INFO] Running com.rica.consultasservice.consultas.ProyeccionListenerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s -- in com.rica.consultasservice.consultas.ProyeccionListenerTest
+[INFO] Running com.rica.consultasservice.consultas.ProyectorFichasTest
+11:20:18.816 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co actualizada (registro)
+11:20:18.817 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co ahora tiene 1 publicaciones
+11:20:18.817 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: evento duplicado ignorado para ana.torres@uptc.edu.co
+11:20:18.826 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co actualizada (registro)
+11:20:18.826 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ana.torres@uptc.edu.co marcado EN_ELIMINACION
+11:20:18.827 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co eliminada
+11:20:18.840 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co ahora tiene 1 publicaciones
+11:20:18.842 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co actualizada (registro)
+11:20:18.847 [main] INFO com.rica.consultasservice.consultas.ProyectorFichas -- Proyecci�n: ficha de ana.torres@uptc.edu.co actualizada (registro)
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.316 s -- in com.rica.consultasservice.consultas.ProyectorFichasTest
+[INFO] Running com.rica.consultasservice.consultas.RegistroEventosProcesadosTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.556 s -- in com.rica.consultasservice.consultas.RegistroEventosProcesadosTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.607 s
+[INFO] Finished at: 2026-11-10T11:20:19-05:00
+[INFO] ------------------------------------------------------------------------

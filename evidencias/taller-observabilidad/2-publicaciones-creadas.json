@@ -1,0 +1,22 @@
+﻿[
+    {
+        "id":  "6af3438d4b574f202c4cc2c3",
+        "investigadorCorreo":  "mateo.observabilidad.20261110@uptc.edu.co",
+        "titulo":  "Observabilidad en RICA",
+        "tipo":  "articulo",
+        "anio":  2026,
+        "detalles":  {
+
+                     }
+    },
+    {
+        "id":  "6af3438d4b574f202c4cc2c4",
+        "investigadorCorreo":  "mateo.observabilidad.20261110@uptc.edu.co",
+        "titulo":  "Trazabilidad de Sagas",
+        "tipo":  "articulo",
+        "anio":  2026,
+        "detalles":  {
+
+                     }
+    }
+]

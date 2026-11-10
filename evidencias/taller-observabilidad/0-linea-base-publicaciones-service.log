@@ -1,0 +1,2 @@
+﻿2026-11-10T11:24:04.630-05:00  INFO 3624 --- [publicaciones-service] [ntainer#1-0-C-1] c.r.p.p.InvestigadorRegistradoListener   : Evento recibido [investigadores.registrados]: {"id":8,"nombreCompleto":"Sofia Rios Linea Base","correoInstitucional":"sofia.lineabase.20261110@uptc.edu.co"}
+2026-11-10T11:24:12.770-05:00  INFO 3624 --- [publicaciones-service] [ntainer#0-0-C-1] .r.p.p.InvestigadorEnEliminacionListener : Saga: 2 publicaciones de sofia.lineabase.20261110@uptc.edu.co marcadas como huérfanas

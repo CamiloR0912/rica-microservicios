@@ -1,0 +1,6 @@
+﻿
+GROUP             TOPIC                         PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                       HOST            CLIENT-ID
+consultas-service publicaciones.registradas     0          2               2               0               consumer-consultas-service-1-8c7f2360-1837-40c8-bce0-e2e92bca9463 /172.20.0.1     consumer-consultas-service-1
+consultas-service investigadores.registrados    0          1               1               0               consumer-consultas-service-5-d606c7de-56ea-4dc9-b91d-e5da87b57e93 /172.20.0.1     consumer-consultas-service-5
+consultas-service investigadores.eliminados     0          1               1               0               consumer-consultas-service-2-fcda7863-7614-49c4-b802-69ee8c950e34 /172.20.0.1     consumer-consultas-service-2
+consultas-service investigadores.en-eliminacion 0          1               1               0               consumer-consultas-service-3-a0fb6752-cfdb-4536-80c5-3481aa0a4a04 /172.20.0.1     consumer-consultas-service-3

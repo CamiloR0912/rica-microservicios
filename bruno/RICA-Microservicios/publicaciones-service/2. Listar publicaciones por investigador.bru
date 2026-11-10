@@ -1,0 +1,15 @@
+meta {
+  name: 2. Listar publicaciones por investigador
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{publicacionesUrl}}/api/publicaciones?investigadorCorreo=camilo.ramirez@uptc.edu.co
+  body: none
+  auth: none
+}
+
+params:query {
+  investigadorCorreo: camilo.ramirez@uptc.edu.co
+}

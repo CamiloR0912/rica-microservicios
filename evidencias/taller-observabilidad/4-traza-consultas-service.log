@@ -1,0 +1,2 @@
+﻿2026-11-10T11:18:50.809-05:00  INFO [consultas-service,demo-002] 27136 --- [consultas-service] [ntainer#2-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: saga.observabilidad.20261110@uptc.edu.co marcado EN_ELIMINACION
+2026-11-10T11:20:25.626-05:00  INFO [consultas-service,demo-002] 27136 --- [consultas-service] [ntainer#1-0-C-1] c.r.c.consultas.ProyectorFichas          : Proyección: ficha de saga.observabilidad.20261110@uptc.edu.co eliminada

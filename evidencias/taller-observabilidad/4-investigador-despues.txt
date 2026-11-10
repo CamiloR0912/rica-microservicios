@@ -1,0 +1,7 @@
+﻿HTTP/1.1 404 
+X-Correlation-Id: 8a37aad4-b78d-4aa5-b564-25f6d0e07bd5
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 10 Nov 2026 16:20:57 GMT
+
+{"timestamp":"2026-11-10T11:20:57.092561","estado":404,"mensaje":"No existe un investigador con id 7"}

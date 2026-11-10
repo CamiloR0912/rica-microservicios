@@ -1,0 +1,18 @@
+﻿{
+    "availableTags":  [
+                          {
+                              "tag":  "pool",
+                              "values":  [
+                                             "HikariPool-1"
+                                         ]
+                          }
+                      ],
+    "description":  "Active connections",
+    "measurements":  [
+                         {
+                             "statistic":  "VALUE",
+                             "value":  0.0
+                         }
+                     ],
+    "name":  "hikaricp.connections.active"
+}

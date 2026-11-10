@@ -1,0 +1,13 @@
+﻿2026-11-10T11:18:49.284-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : DELETE "/api/investigadores/7", parameters={}
+2026-11-10T11:18:49.286-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.rica.investigadoresservice.investigadores.infraestructura.entrada.web.InvestigadorController#eliminar(Long)
+2026-11-10T11:18:49.291-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] org.hibernate.SQL                        : 
+2026-11-10T11:18:49.296-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] org.hibernate.SQL                        : 
+2026-11-10T11:18:49.299-05:00  INFO [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] c.r.i.i.aplicacion.InvestigadorService   : Saga: eliminación iniciada para saga.observabilidad.20261110@uptc.edu.co (EN_ELIMINACION)
+2026-11-10T11:18:49.300-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] org.hibernate.SQL                        : 
+2026-11-10T11:18:49.307-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-11-10T11:18:49.308-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-11-10T11:18:49.309-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2026-11-10T11:20:24.409-05:00  INFO [investigadores-service,demo-002] 19588 --- [investigadores-service] [ntainer#0-0-C-1] .i.i.i.e.m.PublicacionesMarcadasListener : Saga: publicaciones confirmó para saga.observabilidad.20261110@uptc.edu.co. Eliminando investigador.
+2026-11-10T11:20:24.414-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [ntainer#0-0-C-1] org.hibernate.SQL                        : 
+2026-11-10T11:20:24.420-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [ntainer#0-0-C-1] org.hibernate.SQL                        : 
+2026-11-10T11:20:24.424-05:00 DEBUG [investigadores-service,demo-002] 19588 --- [investigadores-service] [ntainer#0-0-C-1] org.hibernate.SQL                        : 

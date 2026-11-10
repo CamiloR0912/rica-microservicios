@@ -7,6 +7,7 @@ meta {
 post {
   url: {{publicacionesUrl}}/api/publicaciones
   body: json
+  auth: none
 }
 
 headers {
@@ -15,12 +16,12 @@ headers {
 
 body:json {
   {
-    "investigadorCorreo": "ana.torres@uptc.edu.co",
-    "titulo": "Redes de colaboración académica en instituciones públicas",
+    "investigadorCorreo": "camilo.ramirez@uptc.edu.co",
+    "titulo": "articulo de prueba",
     "tipo": "articulo",
     "anio": 2025,
     "detalles": {
-      "revista": "Revista Colombiana de Computación",
+      "revista": "Revista de prueba",
       "doi": "10.1234/rcc.2025.017"
     }
   }

@@ -1,0 +1,6 @@
+﻿HTTP/1.1 404 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 10 Nov 2026 16:24:11 GMT
+
+{"timestamp":"2026-11-10T16:24:11.033Z","status":404,"error":"Not Found","path":"/actuator/health"}

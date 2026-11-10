@@ -1,0 +1,64 @@
+﻿{
+    "availableTags":  [
+                          {
+                              "tag":  "exception",
+                              "values":  [
+                                             "none"
+                                         ]
+                          },
+                          {
+                              "tag":  "method",
+                              "values":  [
+                                             "POST",
+                                             "DELETE",
+                                             "GET"
+                                         ]
+                          },
+                          {
+                              "tag":  "error",
+                              "values":  [
+                                             "none"
+                                         ]
+                          },
+                          {
+                              "tag":  "uri",
+                              "values":  [
+                                             "/api/investigadores",
+                                             "/api/investigadores/{id}",
+                                             "/actuator/health"
+                                         ]
+                          },
+                          {
+                              "tag":  "outcome",
+                              "values":  [
+                                             "CLIENT_ERROR",
+                                             "SUCCESS"
+                                         ]
+                          },
+                          {
+                              "tag":  "status",
+                              "values":  [
+                                             "404",
+                                             "200",
+                                             "201",
+                                             "202"
+                                         ]
+                          }
+                      ],
+    "baseUnit":  "seconds",
+    "measurements":  [
+                         {
+                             "statistic":  "COUNT",
+                             "value":  16.0
+                         },
+                         {
+                             "statistic":  "TOTAL_TIME",
+                             "value":  0.6702978999999999
+                         },
+                         {
+                             "statistic":  "MAX",
+                             "value":  0.1820007
+                         }
+                     ],
+    "name":  "http.server.requests"
+}

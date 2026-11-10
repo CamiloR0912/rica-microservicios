@@ -1,0 +1,20 @@
+﻿{
+    "correo":  "mateo.observabilidad.20261110@uptc.edu.co",
+    "nombreCompleto":  "Mateo Diaz Observabilidad",
+    "estado":  "ACTIVO",
+    "totalPublicaciones":  2,
+    "publicaciones":  [
+                          {
+                              "id":  "6af3438d4b574f202c4cc2c3",
+                              "titulo":  "Observabilidad en RICA",
+                              "tipo":  "articulo",
+                              "anio":  2026
+                          },
+                          {
+                              "id":  "6af3438d4b574f202c4cc2c4",
+                              "titulo":  "Trazabilidad de Sagas",
+                              "tipo":  "articulo",
+                              "anio":  2026
+                          }
+                      ]
+}

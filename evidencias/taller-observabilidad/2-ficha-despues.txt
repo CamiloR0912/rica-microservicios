@@ -1,0 +1,7 @@
+﻿HTTP/1.1 404 
+Content-Disposition: inline;filename=f.txt
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 10 Nov 2026 16:17:40 GMT
+
+{"timestamp":"2026-11-10T11:17:40.960742","status":404,"error":"Not Found","mensaje":"No hay ficha para el investigador mateo.observabilidad.20261110@uptc.edu.co"}

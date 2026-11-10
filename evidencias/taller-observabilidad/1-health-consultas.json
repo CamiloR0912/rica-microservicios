@@ -1,0 +1,85 @@
+﻿{
+    "components":  {
+                       "discoveryComposite":  {
+                                                  "components":  {
+                                                                     "discoveryClient":  {
+                                                                                             "details":  {
+                                                                                                             "services":  [
+                                                                                                                              "publicaciones-service",
+                                                                                                                              "investigadores-service",
+                                                                                                                              "consultas-service",
+                                                                                                                              "gateway"
+                                                                                                                          ]
+                                                                                                         },
+                                                                                             "status":  "UP"
+                                                                                         },
+                                                                     "eureka":  {
+                                                                                    "details":  {
+                                                                                                    "applications":  {
+                                                                                                                         "GATEWAY":  1,
+                                                                                                                         "PUBLICACIONES-SERVICE":  1,
+                                                                                                                         "CONSULTAS-SERVICE":  1,
+                                                                                                                         "INVESTIGADORES-SERVICE":  1
+                                                                                                                     }
+                                                                                                },
+                                                                                    "description":  "Remote status from Eureka server",
+                                                                                    "status":  "UP"
+                                                                                }
+                                                                 },
+                                                  "status":  "UP"
+                                              },
+                       "diskSpace":  {
+                                         "details":  {
+                                                         "total":  380067901440,
+                                                         "free":  144876969984,
+                                                         "threshold":  10485760,
+                                                         "path":  "C:\\Users\\USER\\Desktop\\Universidad\\8vo\\Software2\\rica\\rica-microservicios\\.",
+                                                         "exists":  true
+                                                     },
+                                         "status":  "UP"
+                                     },
+                       "livenessState":  {
+                                             "status":  "UP"
+                                         },
+                       "mongo":  {
+                                     "details":  {
+                                                     "databases":  [
+                                                                       "admin",
+                                                                       "config",
+                                                                       "local",
+                                                                       "test"
+                                                                   ],
+                                                     "maxWireVersion":  21
+                                                 },
+                                     "status":  "UP"
+                                 },
+                       "ping":  {
+                                    "status":  "UP"
+                                },
+                       "readinessState":  {
+                                              "status":  "UP"
+                                          },
+                       "refreshScope":  {
+                                            "status":  "UP"
+                                        },
+                       "ssl":  {
+                                   "details":  {
+                                                   "expiringChains":  [
+
+                                                                      ],
+                                                   "invalidChains":  [
+
+                                                                     ],
+                                                   "validChains":  [
+
+                                                                   ]
+                                               },
+                                   "status":  "UP"
+                               }
+                   },
+    "groups":  [
+                   "liveness",
+                   "readiness"
+               ],
+    "status":  "UP"
+}

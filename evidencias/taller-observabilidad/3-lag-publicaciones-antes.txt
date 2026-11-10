@@ -1,0 +1,4 @@
+﻿
+GROUP                 TOPIC                         PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+publicaciones-service investigadores.en-eliminacion 0          1               1               0               consumer-publicaciones-service-1-cf533712-e38a-4e14-8922-8f0f5d0b428d /172.20.0.1     consumer-publicaciones-service-1
+publicaciones-service investigadores.registrados    0          1               1               0               consumer-publicaciones-service-2-5ab45c8b-4b2c-4d38-b12c-091300fe6999 /172.20.0.1     consumer-publicaciones-service-2

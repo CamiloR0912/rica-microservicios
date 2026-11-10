@@ -1,0 +1,6 @@
+﻿System.Management.Automation.RemoteException
+Consumer group 'publicaciones-service' has no active members.
+
+GROUP                 TOPIC                         PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+publicaciones-service investigadores.en-eliminacion 0          1               2               1               -               -               -
+publicaciones-service investigadores.registrados    0          5               5               0               -               -               -
